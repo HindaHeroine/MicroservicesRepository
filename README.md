@@ -27,8 +27,8 @@ voici les odeurs de code que l'outil nous a permis d'analyser:
 - Longue liste de paramètres	Une fonction avec beaucoup de paramètres est complexe. Plus de 3 à 4 paramètres pour une méthode. Or une longue liste de paramètre signifie que la méthode s’en charge d’un nombre excessif de responsabilités. 
 - Jalousie de fonctionnalités	Une classe qui s’intéresse à accéder aux méthodes et attribue d’autres classes plus que ses attributs et méthodes a elle.
 - Classe de données : Une classe ayant des champs, des getters et setters, mais qu’elle n’implémente pas de fonctionnalités qui agissent sur ses champs, elle est généralement manipulée par d’autres classes vu qu’elle manque de méthodes pertinentes pour justifier le fait qu’elle soit une classe.
-- Chaînes de message	Un ensemble d’appels ($ a->b ()->c ()->d ()) signifie qu’un client demande à un objet, que cet objet demande à son tour encore à un autre objet, ce qui rend difficile de voir ou la fonction se produit réellement.
-- Classe paresseuse	Une classe qui n’est pas utilisée, qui ne fait pas assez ou même inutile, elle ne fait qu’augmenter la complexité du code, donc elle doit être supprimée ou bien faire partie d’une classe utile.
+- Chaînes de message : Un ensemble d’appels ($ a->b ()->c ()->d ()) signifie qu’un client demande à un objet, que cet objet demande à son tour encore à un autre objet, ce qui rend difficile de voir ou la fonction se produit réellement.
+- Classe paresseuse :	Une classe qui n’est pas utilisée, qui ne fait pas assez ou même inutile, elle ne fait qu’augmenter la complexité du code, donc elle doit être supprimée ou bien faire partie d’une classe utile.
 
 3- Intellij : l'outil nous permet de générer la matrix de dépendance "Dependancy Structure Matrix", une analyse DSM qui nous permet de visualiser les relations complexes entre les package de chaque projet, Ainsi nous pouvons suivre la propagation de tous changement sur les composants système.
 
