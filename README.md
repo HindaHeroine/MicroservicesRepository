@@ -1,4 +1,4 @@
-    Étude empirique des odeurs de code et d’odeurs d’architecture des applications développées avec des microservices 
+    Étude empirique des odeurs de code et d’odeurs d’architecture des applications développées avec des microservices
     
     Le contexte de notre étude empirique est mené sur des applications avec un style architectural de microservices conçus et développés en tant que projet open source et hébergées sur github, nous allons analyser deux catégories de mauvaises odeurs (1) d’architecture, et (2) de code. 
     
