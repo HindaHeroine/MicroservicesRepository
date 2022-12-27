@@ -66,9 +66,3 @@ Le lien suivant montre en detail la matrice de dépendance: [https://etsmtl365-m
 ### ETAPE 2
 
 Nous avons utilisé les données générées dans l'étape 1 pour créer des vues graphiques que ca soit pour les odeurs de code ou d'architecture, le lien suivant montre les résultats sur le  fichier EXCEL: [https://etsmtl365-my.sharepoint.com/:x:/g/personal/hinda_abassi_1_ens_etsmtl_ca/EfEojTeUbJZJiEHV71uFNXoBUOd8Oe0WfP1AP-Ld3n1vtw?e=Eqongf]
-
-La densité des odeurs de code : 
-![alt text]( https://github.com/HindaHeroine/MicroservicesRepository/blob/main/ImagesGit/La%20densit%C3%A9%20des%20odeurs%20de%20code%20en%20KLOC.jpg"Logo Title Text 3")
-
-    
-    
